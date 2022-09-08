@@ -23,4 +23,7 @@ public class AccountApex {
 	public static list<Account> addMethod(){
 		return[select name, phone from Account];
 	}
+	public static list<Contact> addMethod1(){
+		return[select name from Contact];
+	}
 }
